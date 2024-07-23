@@ -8,6 +8,7 @@
 @tailwind utilities;
 
 /* Check on tailwindCSS.com how to import Nunito font */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -31,7 +32,7 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-  /* code to apply nunito font-family to the entire body */
+    /* code to apply nunito font-family to the entire body */
   font-family: 'Nunito', sans-serif;
 }
 
