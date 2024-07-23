@@ -2,7 +2,7 @@
 import React from 'react';
 import { useRouter } from 'next/navigation';
 import Image from 'next/image';
-import styles from './globals.css';
+import styles from '../styles/globals.css';
 
 const Home = () => {
   return (
@@ -12,7 +12,7 @@ const Home = () => {
         <Image src="/Rectangle 11.png" alt="Rectangle 11" width={1283} height={752} className="absolute top-0 left-0 w-full h-full" />
 
         {/* Navbar */}
-        <div className="absolute top-[30px] left-[88px] w-full flex items-center">
+        <div className= " absolute top-[30px] left-[88px] w-full flex items-center">
           <Image src="/Rectangle 5.png" alt="Caspre Logo" width={94} height={43} className="w-[94px] h-[43px]" />
           <div className="flex items-center space-x-8 ml-auto">
             <p className="text-[15px] leading-[20.46px]">Home</p>
