@@ -62,15 +62,16 @@ const Home = () => {
         </div>
 
         {/* Rectangle 36 */}
-        <div className="absolute top-[876px] left-[88px] w-[1104px] h-[455px] bg-caspre-accent rounded-md mt-[10px] p-8">
-          <p className="absolute top-[963px] left-[485px] font-nunito font-bold text-[30px] leading-[40.92px] text-center text-caspre-bg">Our Value Proposition</p>
-          <p className="absolute top-[963px] left-[487px] font-nunito font-normal text-[18px] leading-[24.55px] text-caspre-bg mt-4">We are different, here is why.</p>
+        <div className=" left-[88px] w-[1104px] h-[455px] bg-caspre-accent rounded-md mt-[10px] p-8">
+          <p className="absolute top-[120px] left-[485px] font-nunito font-bold text-[30px] leading-[40.92px] text-center text-[0C1424]">Our Value Proposition</p>
+          <p className="absolute top-[150px] left-[530px] font-nunito font-normal text-[18px] leading-[24.55px] text-center text-caspre-bg mt-4">We are different, here is why.</p>
 
+         <div className= " h-[700px] flex items-center">
           {/* Box 1 */}
-          <div className="bg-caspre-secondary rounded-md shadow-credit p-4 flex flex-col">
+          <div className="w-[325px] h-[270px] bg-caspre-secondary rounded-md shadow-credit p-4 flex flex-col">
             <Image src="/Group 2.png" alt="Credit Scoring Accuracy" width={60} height={60} />
-            <p className="font-nunito font-bold text-[20px] leading-[27.28px] text-center text-caspre-bg mt-4">Credit Scoring Accuracy</p>
-            <p className="font-nunito font-normal text-[15px] leading-[20.46px] text-center text-caspre-bg mt-4">
+            <p className="font-nunito font-bold text-[20px] leading-[27.28px] text-center text-[0C1424] mt-4">Credit Scoring Accuracy</p>
+            <p className="font-nunito font-normal text-[15px] leading-[20.46px] text-caspre-bg mt-4">
               Utilize advanced AI and behavioural analytics to achieve unparalleled accuracy in credit scoring, enhancing your risk management capabilities.
             </p>
           </div>
@@ -92,6 +93,7 @@ const Home = () => {
               Improve your bottom line through advanced risk management, operational efficiency, and increased client satisfaction driven by our cutting-edge AI technology.
             </p>
           </div>
+         </div>
         </div>
       </div>
       
