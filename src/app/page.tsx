@@ -234,6 +234,142 @@ const Home = () => {
           </div>
        </div>
 
+       {/* Section 5 */}
+      <div className= "flex"> 
+        {/* first child */}
+        <div>
+          <div style={{ top: '2525px', left: '0px' }}>
+                <p className="font-nunito font-medium text-15px text-caspre-blue w-[280px] h-20px">
+                     PSEUDO DATA INTEGRATION
+                </p>
+            </div>
+
+            <div className="absolute" style={{ top: '2551px', left: '0px' }}>
+                <p className="font-nunito font-bold text-30px text-white w-[428px] h-82px leading-tight">
+                     We Factor in Everything, Including Climate
+                </p>
+            </div>
+
+            <div className="absolute" style={{ top: '2649px', left: '0px' }}>
+                <p className="font-nunito font-normal text-15px text-caspre-dark w-[420px] h-100px">
+                Incorporate geolocation and external factors like climate and economic conditions into your risk assessments. By integrating regional data, this feature refines credit scoring, providing a more accurate and nuanced view of creditworthiness.
+                </p>
+            </div>
+
+            {/* Button */}
+            <div className="absolute" style={{ top: '2766px', left: '0px' }}>
+              <button
+               style={{
+               width: '157px',
+               height: '44px',
+               borderRadius: '25px',
+               backgroundColor: '#4361EE',
+               display: 'flex',
+               alignItems: 'center',
+               justifyContent: 'center',
+               border: 'none',
+               cursor: 'pointer',
+               position: 'relative'
+               }}
+      >
+              <span
+               style={{
+               fontFamily: 'Nunito',
+               fontWeight: 600,
+               fontSize: '16px',
+               lineHeight: '21.82px',
+               color: '#FFFFFF',
+               marginRight: '8px' // Adjust spacing between text and icon
+              }}
+              >
+              Learn more
+             </span>
+              <img
+                src="/arrow-right-circle.png"
+                alt="arrow to right"
+                style={{
+                width: '24px',
+                height: '24px'
+              }}
+              />
+             </button>
+            </div>
+          </div>
+          
+          {/* second child */}
+            <div className="absolute" style={{ width: '550px', height: '422px', top: '2453px', left: '640px', borderRadius: '10px' }}>
+                <img src="/Rectangle 42.png" alt="Rectangle 42" className="object-cover w-full h-full rounded-md" />
+            </div>
+       </div>
+
+       {/* Section 6 */}
+      <div className= "flex"> 
+        {/* first child */}
+        <div className="absolute" style={{ width: '550px', height: '422px', top: '2950px', left: '0px', borderRadius: '10px' }}>
+                <img src="/Rectangle 44.png" alt="Rectangle 44" className="object-cover w-full h-full rounded-md" />
+        </div>
+          
+          {/* second child */}
+          <div>
+          <div className= "absolute" style={{ top: '3018px', left: '772px' }}>
+                <p className="font-nunito font-medium text-15px text-caspre-blue w-[280px] h-20px">
+                    ENTITY SCORING SYSTEM
+                </p>
+            </div>
+
+            <div className="absolute" style={{ top: '3045px', left: '772px' }}>
+                <p className="font-nunito font-bold text-30px text-white w-[428px] h-82px leading-tight">
+                    We Evaluate Risk, So You Don't Have To
+                </p>
+            </div>
+
+            <div className="absolute" style={{ top: '3143px', left: '772px' }}>
+                <p className="font-nunito font-normal text-15px text-caspre-dark w-[420px] h-100px">
+                    Evaluate investment entities such as projects or companies with detailed risk vs. value analysis. Access comprehensive reports, including projected ROI and risk factors, to make informed investment decisions and optimize your portfolio.
+                </p>
+            </div>
+
+            {/* Button */}
+            <div className="absolute" style={{ top: '3249px', left: '772px' }}>
+              <button
+               style={{
+               width: '157px',
+               height: '44px',
+               borderRadius: '25px',
+               backgroundColor: '#4361EE',
+               display: 'flex',
+               alignItems: 'center',
+               justifyContent: 'center',
+               border: 'none',
+               cursor: 'pointer',
+               position: 'relative'
+               }}
+      >
+              <span
+               style={{
+               fontFamily: 'Nunito',
+               fontWeight: 600,
+               fontSize: '16px',
+               lineHeight: '21.82px',
+               color: '#FFFFFF',
+               marginRight: '8px' // Adjust spacing between text and icon
+              }}
+              >
+              Learn more
+             </span>
+              <img
+                src="/arrow-right-circle.png"
+                alt="arrow to right"
+                style={{
+                width: '24px',
+                height: '24px'
+              }}
+              />
+             </button>
+            </div>
+          </div>
+       </div>
+
        {/* Section 7 */}
       <div className="relative w-[1283px] mx-auto mt-[200px]">
         {/* Rectangle 47 */}
