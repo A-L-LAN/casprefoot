@@ -238,7 +238,7 @@ const Home = () => {
       <div className= "flex"> 
         {/* first child */}
         <div>
-          <div style={{ top: '2525px', left: '0px' }}>
+          <div className= "absolute" style={{ top: '2525px', left: '0px' }}>
                 <p className="font-nunito font-medium text-15px text-caspre-blue w-[280px] h-20px">
                      PSEUDO DATA INTEGRATION
                 </p>
