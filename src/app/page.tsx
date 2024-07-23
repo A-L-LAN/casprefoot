@@ -166,6 +166,74 @@ const Home = () => {
             </div>
        </div>
 
+       {/* Section 4 */}
+      <div className= "flex"> 
+        {/* first child */}
+        <div className="absolute" style={{ width: '550px', height: '422px', top: '1942px', left: '0px', borderRadius: '10px' }}>
+                <img src="/Rectangle 41.png" alt="Rectangle 41" className="object-cover w-full h-full rounded-md" />
+        </div>
+          
+          {/* second child */}
+          <div>
+          <div className= "absolute" style={{ top: '1993px', left: '772px' }}>
+                <p className="font-nunito font-medium text-15px text-caspre-blue w-[280px] h-20px">
+                     CREDIT PROFILE CREATION
+                </p>
+            </div>
+
+            <div className="absolute" style={{ top: '2021px', left: '772px' }}>
+                <p className="font-nunito font-bold text-30px text-white w-[428px] h-82px leading-tight">
+                Your customers' profiles are backed by facts.
+                </p>
+            </div>
+
+            <div className="absolute" style={{ top: '2118px', left: '772px' }}>
+                <p className="font-nunito font-normal text-15px text-caspre-dark w-[420px] h-100px">
+                Generate comprehensive credit profiles that summarize financial habits and credit history. This feature offers actionable financial advice and suggestions for improving credit scores, enabling you to support your clients more effectively.
+                </p>
+            </div>
+
+            {/* Button */}
+            <div className="absolute" style={{ top: '2251px', left: '772px' }}>
+              <button
+               style={{
+               width: '157px',
+               height: '44px',
+               borderRadius: '25px',
+               backgroundColor: '#4361EE',
+               display: 'flex',
+               alignItems: 'center',
+               justifyContent: 'center',
+               border: 'none',
+               cursor: 'pointer',
+               position: 'relative'
+               }}
+      >
+              <span
+               style={{
+               fontFamily: 'Nunito',
+               fontWeight: 600,
+               fontSize: '16px',
+               lineHeight: '21.82px',
+               color: '#FFFFFF',
+               marginRight: '8px' // Adjust spacing between text and icon
+              }}
+              >
+              Learn more
+             </span>
+              <img
+                src="/arrow-right-circle.png"
+                alt="arrow to right"
+                style={{
+                width: '24px',
+                height: '24px'
+              }}
+              />
+             </button>
+            </div>
+          </div>
+       </div>
+
        {/* Section 7 */}
       <div className="relative w-[1283px] mx-auto mt-[200px]">
         {/* Rectangle 47 */}
