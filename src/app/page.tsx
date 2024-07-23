@@ -102,32 +102,32 @@ const Home = () => {
       <div className= "flex"> 
         {/* first child */}
         <div>
-          <div className="absolute" style={{ top: '1516px', left: '88px' }}>
-                <p className="font-nunito font-medium text-15px text-caspre-blue w-243px h-20px">
+          <div style={{ top: '1516px', left: '88px' }}>
+                <p className="font-nunito font-medium text-15px text-caspre-blue w-[280px] h-20px">
                     BEHAVIOURAL ANALYTICS SYSTEM
                 </p>
             </div>
 
-            <div className="absolute" style={{ top: '1544px', left: '88px' }}>
-                <p className="font-nunito font-bold text-30px text-white w-428px h-82px leading-tight">
+            <div className="absolute" style={{ top: '1544px', left: '0px' }}>
+                <p className="font-nunito font-bold text-30px text-white w-[428px] h-82px leading-tight">
                     We customize credit solutions to match spending patterns.
                 </p>
             </div>
 
-            <div className="absolute" style={{ top: '1640px', left: '87px' }}>
-                <p className="font-nunito font-normal text-15px text-caspre-dark w-420px h-100px">
+            <div className="absolute" style={{ top: '1640px', left: '0px' }}>
+                <p className="font-nunito font-normal text-15px text-caspre-dark w-[420px] h-100px">
                     Upload financial documents such as bank and mobile money statements, and analyze spending patterns to cluster users for tailored Customer offerings. This system uses advanced algorithms to provide a deep understanding of customer behaviours, helping you to make data-driven decisions.
                 </p>
             </div>
 
             {/* Button */}
-            <div className="absolute" style={{ top: '1784px', left: '87px' }}>
+            <div className="absolute" style={{ top: '1820px', left: '0px' }}>
               <button
                style={{
                width: '157px',
                height: '44px',
                borderRadius: '25px',
-               backgroundColor: '#D9D9D9',
+               backgroundColor: '#4361EE',
                display: 'flex',
                alignItems: 'center',
                justifyContent: 'center',
@@ -169,7 +169,7 @@ const Home = () => {
        {/* Section 7 */}
       <div className="relative w-[1283px] mx-auto mt-[200px]">
         {/* Rectangle 47 */}
-        <div className="absolute w-[1104px] h-[252px] bg-gray-700 rounded-md p-8 top-[3442px] left-[88px] flex flex-col">
+        <div className="absolute w-[1104px] h-[252px] rounded-md p-8 top-[3442px] left-[88px] flex flex-col">
           <div className="flex justify-between mt-2">
             <div className="text-center">
               <p className="font-nunito text-[60px] leading-[81.84px] text-caspre-accent">45</p>
@@ -248,10 +248,10 @@ const Home = () => {
       <div className="relative top-[4438px] left-[88px] w-[1104px] h-[682px] bg-[#0C1424] rounded-[10px] border border-[#C5FFE2]">
         {/* First Child */}
         <div>
-          <p className="absolute top-[4507px] left-[426px] w-[421px] h-[41px] font-nunito font-bold text-[30px] leading-[40.92px] text-center text-[#C5FFE2]">
+          <p className="absolute top-[50px] left-[350px] w-[421px] h-[41px] font-nunito font-bold text-[30px] leading-[40.92px] text-center text-[#C5FFE2]">
             Frequently Asked Questions
           </p>
-          <p className="absolute top-[4560px] left-[510px] w-[253px] h-[20px] font-nunito font-normal text-[15px] leading-[20.46px] text-[#FFFFFF]">
+          <p className="absolute top-[110px] left-[380px] w-[350px] h-[20px] font-nunito font-normal text-[15px] leading-[20.46px] text-[#FFFFFF]">
             Clear Answers to Common Questions
           </p>
         </div>
@@ -259,44 +259,44 @@ const Home = () => {
         {/* Second Child */}
         <div>
           {/* First Placeholder */}
-          <div className="absolute top-[4625px] left-[199px] w-[881px] h-[78px] bg-[#131F35] rounded-[10px] border border-[0.5px] border-[#C5FFE2]">
-            <p className="absolute top-[4650px] left-[238px] w-[150px] h-[27px] font-nunito font-semibold text-[20px] leading-[27.28px] text-[#FFFFFF]">
+          <div className="absolute top-[180px] left-[100px] w-[881px] h-[78px] bg-[#131F35] rounded-[10px] border border-[0.5px] border-[#C5FFE2]">
+            <p className="absolute top-[10px] left-[50px] w-[200px] h-[27px] font-nunito font-semibold text-[20px] leading-[27.28px] text-[#FFFFFF]">
               What is Caspre?
             </p>
-            <div className="absolute top-[4647px] left-[1029px] w-[34px] h-[34px] rounded-full border border-[1px] border-[#C5FFE2] flex items-center justify-center">
+            <div className="absolute top-[10px] left-[830px] w-[34px] h-[34px] rounded-full border border-[1px] border-[#C5FFE2] flex items-center justify-center">
               <p className="font-nunito font-normal text-[22px] leading-[30.01px] text-[#C5FFE2]">+</p>
             </div>
           </div>  
 
             {/* Second Placeholder */}
-          <div className="absolute top-[4725px] left-[199px] w-[881px] h-[108px] bg-[#131F35] rounded-[10px] border border-[0.5px] border-[#C5FFE2]">
-            <p className="absolute top-[4745px] left-[238px] w-[174px] h-[27px] font-nunito font-semibold text-[20px] leading-[27.28px] text-[#FFFFFF]">
+          <div className="absolute top-[280px] left-[100px] w-[881px] h-[108px] bg-[#131F35] rounded-[10px] border border-[0.5px] border-[#C5FFE2]">
+            <p className="absolute top-[10px] left-[50px] w-[220px] h-[27px] font-nunito font-semibold text-[20px] leading-[27.28px] text-[#FFFFFF]">
               Who is Caspre for?
             </p>
-            <p className="absolute top-[4799px] left-[238px] w-[754px] h-[40px] font-nunito font-normal text-[15px] leading-[20.46px] text-[#FFFFFF]">
+            <p className="absolute top-[50px] left-[50px] w-[754px] h-[40px] font-nunito font-normal text-[15px] leading-[20.46px] text-[#FFFFFF]">
               Caspre is intended for financial institutions and industries that intend to harness the full power of machine learning and AI to achieve analysis of large sums of financial data in little to no time
             </p>
-            <div className="absolute top-[4743px] left-[1029px] w-[34px] h-[34px] rounded-full border border-[1px] border-[#C5FFE2] flex items-center justify-center">
+            <div className="absolute top-[10px] left-[830px] w-[34px] h-[34px] rounded-full border border-[1px] border-[#C5FFE2] flex items-center justify-center">
               <p className="font-nunito font-normal text-[22px] leading-[40.92px] text-[#C5FFE2]">-</p>
             </div>
           </div>
 
           {/* Third Placeholder */}
-          <div className="absolute top-[4855px] left-[199px] w-[881px] h-[78px] bg-[#131F35] rounded-[10px] border border-[0.5px] border-[#C5FFE2]">
-            <p className="absolute top-[4880px] left-[238px] w-[280px] h-[27px] font-nunito font-semibold text-[20px] leading-[27.28px] text-[#FFFFFF]">
+          <div className="absolute top-[410px] left-[100px] w-[881px] h-[78px] bg-[#131F35] rounded-[10px] border border-[0.5px] border-[#C5FFE2]">
+            <p className="absolute top-[10px] left-[50px] w-[320px] h-[27px] font-nunito font-semibold text-[20px] leading-[27.28px] text-[#FFFFFF]">
               How safe are the clients' data?
             </p>
-            <div className="absolute top-[4877px] left-[1029px] w-[34px] h-[34px] rounded-full border border-[1px] border-[#C5FFE2] flex items-center justify-center">
+            <div className="absolute top-[10px] left-[830px] w-[34px] h-[34px] rounded-full border border-[1px] border-[#C5FFE2] flex items-center justify-center">
               <p className="font-nunito font-normal text-[22px] leading-[30.01px] text-[#C5FFE2]">+</p>
             </div>
           </div>
           
           {/* Fourth Placeholder */}
-          <div className="absolute top-[4955px] left-[199px] w-[881px] h-[78px] bg-[#131F35] rounded-[10px] border border-[0.5px] border-[#C5FFE2]">
-            <p className="absolute top-[4980px] left-[238px] w-[280px] h-[27px] font-nunito font-semibold text-[20px] leading-[27.28px] text-[#FFFFFF]">
+          <div className="absolute top-[510px] left-[100px] w-[881px] h-[78px] bg-[#131F35] rounded-[10px] border border-[0.5px] border-[#C5FFE2]">
+            <p className="absolute top-[10px] left-[50px] w-[320px] h-[27px] font-nunito font-semibold text-[20px] leading-[27.28px] text-[#FFFFFF]">
               How safe are the clients' data?
             </p>
-            <div className="absolute top-[4977px] left-[1029px] w-[34px] h-[34px] rounded-full border border-[1px] border-[#C5FFE2] flex items-center justify-center">
+            <div className="absolute top-[10px] left-[830px] w-[34px] h-[34px] rounded-full border border-[1px] border-[#C5FFE2] flex items-center justify-center">
               <p className="font-nunito font-normal text-[22px] leading-[30.01px] text-[#C5FFE2]">+</p>
             </div>
           </div>
@@ -304,11 +304,11 @@ const Home = () => {
       </div> 
       
       {/* Section9 */}
-      <div className="Section9 px-8 py-4">
+      <div className="relative top-[5257px] Section9 px-8 py-4 display-flex" >
         {/* First Child */}
         <div>
           {/* REQUEST A DEMO */}
-          <div className="my-8">
+          <div className="my-8" >
             <p className="text-[15px] leading-[20.46px] text-[#4361EE] font-medium">REQUEST A DEMO</p>
             <p className="text-[30px] leading-[40.92px] text-[#0C1424] font-bold w-[421px] mt-4">
               Explore more of Caspre's Capabilities
@@ -326,11 +326,10 @@ const Home = () => {
         {/* Second Child */}
         <div
           className="relative w-[492.71px] h-[405.71px] mt-8"
-          style={{ top: '5171px', left: '699px' }}
         >
           {/* Group 1 */}
           <div
-            className="absolute top-[5267.78px] left-[699px]"
+            className="absolute top-[-290.78px] left-[699px]"
             style={{ transform: 'rotate(45.57deg)' }}
           >
             <div className="w-[135.52px] h-[135.52px] bg-[#C5FFE2] rounded-[5px] flex items-center justify-center">
@@ -339,7 +338,7 @@ const Home = () => {
           </div>
 
           <div
-            className="absolute top-[5373.85px] left-[800.74px]"
+            className="absolute top-[-184.85px] left-[800.74px]"
             style={{ transform: 'rotate(45.57deg)' }}
           >
             <div className="w-[135.52px] h-[135.52px] bg-[#FFD2CB] rounded-[5px] flex items-center justify-center">
@@ -348,7 +347,7 @@ const Home = () => {
           </div>
 
           <div
-            className="absolute top-[5279.93px] left-[699px]"
+            className="absolute top-[-78.93px] left-[699px]"
             style={{ transform: 'rotate(45.57deg)' }}
           >
             <div className="w-[135.52px] h-[135.52px] bg-[#DCC3FF] rounded-[5px] flex items-center justify-center">
@@ -357,7 +356,7 @@ const Home = () => {
           </div>
 
           <div
-            className="absolute top-[5467.78px] left-[900.24px]"
+            className="absolute top-[-290.78px] left-[900.24px]"
             style={{ transform: 'rotate(45.57deg)' }}
           >
             <div className="w-[135.52px] h-[135.52px] bg-[#C5FFE2] rounded-[5px] flex items-center justify-center">
@@ -368,7 +367,7 @@ const Home = () => {
           </div>
 
           <div
-            className="absolute top-[5379.85px] left-[1001.98px]"
+            className="absolute top-[-178.85px] left-[1001.98px]"
             style={{ transform: 'rotate(45.57deg)' }}
           >
             <div className="w-[135.52px] h-[135.52px] bg-[#FFD2CB] rounded-[5px] flex items-center justify-center">
@@ -379,10 +378,10 @@ const Home = () => {
           </div>
 
           <div
-            className="absolute top-[5479.93px] left-[699px] bg-DCC3FF rotate-[45.57deg]"
+            className="absolute top-[-78.93px] left-[900.24px] bg-DCC3FF rotate-[45.57deg]"
           >
-            <div className="w-[135.52px] h-[135.52px] bg-[#FFD2CB] rounded-[5px] flex items-center justify-center">
-              <p className="text-center absolute top-[5485px] left-[936px] w-[119px] h-[36px] font-nunito font-medium text-[13px] leading-[17.73px] text-caspre-dark -rotate-[45.57deg]">
+            <div className="w-[135.52px] h-[135.52px] bg-[#DCC3FF] rounded-[5px] flex items-center justify-center">
+              <p className="text-center absolute w-[119px] h-[36px] font-nunito font-medium text-[13px] leading-[17.73px] text-caspre-dark -rotate-[45.57deg]">
                 Get your demo as soon as possible
               </p>
             </div>
@@ -391,7 +390,7 @@ const Home = () => {
       </div>
 
       {/* Footer */}
-      <div className="footer bg-[#0C1424] px-8 py-4">
+      <div className="relative bottom-[-5171px] footer bg-[#0C1424] px-8 py-4 ">
         {/* First Child */}
         <div className="flex flex-col lg:flex-row justify-between">
         
@@ -468,12 +467,13 @@ const Home = () => {
         <hr className="border-white w-[1104.02px] mx-8" />
         </div>
 
+        <div>
         {/* Second Child (Subscribe Section) */}
         <div className="flex flex-col lg:flex-row justify-between items-start">
         
          {/* Subscribe to Our Newsletter */}
          <div className="mb-8 lg:mb-0">
-          <p className="text-[25px] leading-[34.1px] font-bold text-white">
+          <p className="w-[400px] text-[25px] leading-[34.1px] font-bold text-white">
             Subscribe to Our Newsletter
           </p>
           <p className="text-[15px] leading-[20.46px] text-white mt-4">
@@ -489,13 +489,16 @@ const Home = () => {
              Subscribe
            </button>
          </div>
+         </div>
        
+         
          {/* By submitting your email address statement */}
-         <div className="mb-8">
-          <p className="text-[10px] leading-[13.64px] text-white">
+         <div className="mb-8" style={{ left: '500px' }}>
+          <p className=" w-[420px] text-[10px] leading-[13.64px] text-white">
          By submitting your email address, you agree to receive Caspre's monthly newsletter. For more information, please read our privacy policy. You can always withdraw your consent.
           </p>
          </div>
+         
   
          {/* Divider Line */}
          <div className="my-4">

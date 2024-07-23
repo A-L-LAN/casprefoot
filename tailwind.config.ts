@@ -22,6 +22,13 @@ const config: Config = {
       textColor: {
         'caspre-blue': '#4361EE',
         'caspre-dark': '#0c1424',
+        'caspre-bg': '#0C1424',
+        'caspre-primary': '#D9D9D9',
+        'caspre-secondary': '#FFFFFF',
+        'caspre-accent': '#F1FEFB',
+        'C5FFE2': '#C5FFE2',
+        'FFD2CB': '#FFD2CB',
+        'DCC3FF': '#DCC3FF',
       },
     },
   },
