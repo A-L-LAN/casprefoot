@@ -2,17 +2,17 @@
 import React from 'react';
 import { useRouter } from 'next/navigation';
 import Image from 'next/image';
-import styles from '../styles/globals.css';
+import styles from '../globals.css';
 
 const Home = () => {
   return (
-    <div className="bg-caspre-secondary relative" style={{ width: '1280px', height: '6014px', top: '-506px', left: '-494px' }}>
+    <div className="bg-caspre-secondary relative" style={{ width: '1280px', height: '6014px', top: '0px', left: '270px' }}>
       {/* Hero Section */}
       <div className="relative w-[1283px] h-[752px] mx-auto bg-caspre-bg text-caspre-secondary"> 
-        <Image src="/Rectangle 11.png" alt="Rectangle 11" width={1283} height={752} className="absolute top-0 left-0 w-full h-full" />
+        <Image src="/Rectangle 11.png" alt="Rectangle 11" width={1283} height={752} className="absolute top -220px left-0 w-full h-full" />
 
         {/* Navbar */}
-        <div className= " absolute top-[30px] left-[88px] w-full flex items-center">
+        <div className= " absolute top-[30px] left-[88px] w-[1283] flex items-center">
           <Image src="/Rectangle 5.png" alt="Caspre Logo" width={94} height={43} className="w-[94px] h-[43px]" />
           <div className="flex items-center space-x-8 ml-auto">
             <p className="text-[15px] leading-[20.46px]">Home</p>
@@ -25,7 +25,7 @@ const Home = () => {
         </div>
 
         {/* First CTAs */}
-        <div className="mt-[210px] ml-[88px]">
+        <div className=" absolute top-[0px] mt-[210px] ml-[88px]">
           <h1 className="font-bold text-[39px] leading-[53.2px] w-[550px] text-caspre-primary">
             Transform Your Credit Future with Caspre's Cutting-Edge AI
           </h1>
@@ -44,7 +44,7 @@ const Home = () => {
         </div>
 
         {/* Join Placeholder */}
-        <div className="absolute bottom-[69px] left-[343px] bg-[#FFFFFF] text-[#0C1424] rounded-md p-4 w-[593px] h-[69px] flex items-center justify-center">
+        <div className="absolute bottom-[-2px] left-[343px] bg-[#FFFFFF] text-[#0C1424] rounded-md p-4 w-[593px] h-[69px] flex items-center justify-center">
           <p className="text-[20px] leading-[20.46px]">Join 45+ financial institutions growing with <span className="font-bold">Caspre</span></p>
         </div>
       </div>
@@ -159,7 +159,7 @@ const Home = () => {
           </div>
           
           {/* second child */}
-            <div className="absolute" style={{ width: '550px', height: '422px', top: '0px', left: '640px', borderRadius: '10px' }}>
+            <div className="absolute" style={{ width: '550px', height: '422px', top: '1464px', left: '640px', borderRadius: '10px' }}>
                 <img src="/Rectangle 38.png" alt="Rectangle 38" className="object-cover w-full h-full rounded-md" />
             </div>
        </div>
