@@ -12,7 +12,7 @@ const Home = () => {
         <Image src="/Rectangle 11.png" alt="Rectangle 11" width={1283} height={752} className="absolute top -220px left-0 w-full h-full" />
 
         {/* Navbar */}
-        <div className= " absolute top-[30px] left-[88px] w-[1283] flex items-center justify-between">
+        <div className= " absolute top-[30px] left-[88px] w-[1283] flex items-center justify-between w-[950px]">
           <Image src="/Rectangle 5.png" alt="Caspre Logo" width={94} height={43} className="w-[94px] h-[43px]" />
           <div className="flex items-center space-x-8 ml-auto">
           <div className="absolute top-[68.5px] left-[351px] w-[581px] border-t border-white"></div> {/* Line 1 */}
@@ -23,10 +23,6 @@ const Home = () => {
             <p className="text-[15px] leading-[20.46px]">Contact Us</p>
             <button className="bg-caspre-primary text-caspre-secondary ml-auto px-4 py-1.5 rounded-xl border">Sign in</button>
           </div>
-
-{/* Adding a line here */}
-
-
         </div>
 
         {/* First CTAs */}
