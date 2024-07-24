@@ -567,6 +567,9 @@ const Home = () => {
             style={{ transform: 'rotate(45.57deg)' }}
           >
             <div className="w-[135.52px] h-[135.52px] bg-[#C5FFE2] rounded-[5px] flex items-center justify-center">
+              <div className="relative w-[50px] h-[50px] bg-[#0C1424] top-[-40px] left-[10px] rounded-full flex justify-center items-center">
+               <Image src="/Edit-3.png" alt="edit pic" width={30} height={30} />
+              </div>
               <span className="text-[13px] leading-[17.73px] text-[#0C1424] font-medium text-center transform rotate-[-45.57deg] max-w-[119px]">
                 Fill in your contact information
               </span>
@@ -578,6 +581,9 @@ const Home = () => {
             style={{ transform: 'rotate(45.57deg)' }}
           >
             <div className="w-[135.52px] h-[135.52px] bg-[#FFD2CB] rounded-[5px] flex items-center justify-center">
+              <div className="relative w-[50px] h-[50px] bg-[#0C1424] top-[-40px] left-[10px] rounded-full flex justify-center items-center">
+               <Image src="/Clock.png" alt="clock" width={30} height={30} />
+              </div>
               <span className="text-[13px] leading-[17.73px] text-[#0C1424] font-medium text-center transform rotate-[-45.57deg] max-w-[119px]">
                 Caspre's team will schedule a demo
               </span>
@@ -588,6 +594,9 @@ const Home = () => {
             className="absolute top-[-78.93px] left-[900.24px] bg-DCC3FF rotate-[45.57deg]"
           >
             <div className="w-[135.52px] h-[135.52px] bg-[#DCC3FF] rounded-[5px] flex items-center justify-center">
+              <div className="relative w-[50px] h-[50px] bg-[#0C1424] top-[-30px] left-[-30px] rounded-full flex justify-center items-center">
+               <Image src="/play-circle.png" alt="play circle" width={30} height={30} />
+              </div>
               <p className="text-center absolute w-[119px] h-[36px] font-nunito font-medium text-[13px] leading-[17.73px] text-caspre-dark -rotate-[45.57deg]">
                 Get your demo as soon as possible
               </p>
