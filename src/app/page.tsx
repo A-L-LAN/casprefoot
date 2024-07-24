@@ -377,9 +377,9 @@ const Home = () => {
        {/* Section 7 */}
       <div className="relative w-[1283px] mx-auto mt-[200px]">
         {/* Rectangle 47 */}
-        <div className="absolute w-[1283px] h-[252px] bg-[#0C1424] rounded-md p-8 top-[1750px] left-[0px] flex flex-col">
-        {/* <Image src="/Rectangle 47.png" alt="Rectangle 47" width={1104} height={252} className="absolute top 1750px left-[0px] w-full h-full" /> */}
-          <div className="flex justify-between mt-2">
+        <div className="absolute w-[1283px] h-[252px] rounded-md p-8 top-[1750px] left-[0px] flex flex-col">
+         <Image src="/Rectangle 47.png" alt="Rectangle 47" width={1283} height={252} className="absolute top 1750px left-[0px] w-full h-full" />
+          <div className="absolute top flex justify-between mt-2">
             <div className="text-center">
               <p className="font-nunito text-[60px] leading-[81.84px] text-caspre-accent">45</p>
               <p className="font-nunito text-[18px] leading-[24.55px] text-caspre-secondary">Financial institutions trust Caspire's credit scoring abilities</p>
@@ -454,8 +454,8 @@ const Home = () => {
       </div>
       
       {/* Section 8 */}
-      <div className="relative top-[2788px] left-[0px] w-[1283px] h-[682px] bg-[#0C1424] rounded-[10px] border border-[#C5FFE2]">
-      {/* <Image src="/Rectangle 49.png" alt="Rectangle 49" width={1104} height={682} className="relative top -220px left-[88px] w-full h-full" />   */}
+      <div className="relative top-[2788px] left-[0px] w-[1283px] h-[682px] rounded-[10px] border border-[#C5FFE2]">
+       <Image src="/Rectangle 49.png" alt="Rectangle 49" width={1104} height={682} className="relative top -220px left-[0px] w-full h-full" />
         {/* First Child */}
         <div>
           <p className="absolute top-[50px] left-[350px] w-[421px] h-[41px] font-nunito font-bold text-[30px] leading-[40.92px] text-center text-[#C5FFE2]">
@@ -469,7 +469,7 @@ const Home = () => {
         {/* Second Child */}
         <div>
           {/* First Placeholder */}
-          <div className="absolute top-[180px] left-[100px] w-[881px] h-[78px] bg-[#131F35] rounded-[10px] border border-[0.5px] border-[#C5FFE2]">
+          <div className="absolute top-[180px] left-[170px] w-[881px] h-[78px] bg-[#131F35] rounded-[10px] border border-[0.5px] border-[#C5FFE2]">
             <p className="absolute top-[10px] left-[50px] w-[200px] h-[27px] font-nunito font-semibold text-[20px] leading-[27.28px] text-[#FFFFFF]">
               What is Caspre?
             </p>
@@ -479,7 +479,7 @@ const Home = () => {
           </div>  
 
             {/* Second Placeholder */}
-          <div className="absolute top-[280px] left-[100px] w-[881px] h-[108px] bg-[#131F35] rounded-[10px] border border-[0.5px] border-[#C5FFE2]">
+          <div className="absolute top-[280px] left-[170px] w-[881px] h-[108px] bg-[#131F35] rounded-[10px] border border-[0.5px] border-[#C5FFE2]">
             <p className="absolute top-[10px] left-[50px] w-[220px] h-[27px] font-nunito font-semibold text-[20px] leading-[27.28px] text-[#FFFFFF]">
               Who is Caspre for?
             </p>
@@ -492,7 +492,7 @@ const Home = () => {
           </div>
 
           {/* Third Placeholder */}
-          <div className="absolute top-[410px] left-[100px] w-[881px] h-[78px] bg-[#131F35] rounded-[10px] border border-[0.5px] border-[#C5FFE2]">
+          <div className="absolute top-[410px] left-[170px] w-[881px] h-[78px] bg-[#131F35] rounded-[10px] border border-[0.5px] border-[#C5FFE2]">
             <p className="absolute top-[10px] left-[50px] w-[320px] h-[27px] font-nunito font-semibold text-[20px] leading-[27.28px] text-[#FFFFFF]">
               How safe are the clients' data?
             </p>
@@ -502,7 +502,7 @@ const Home = () => {
           </div>
           
           {/* Fourth Placeholder */}
-          <div className="absolute top-[510px] left-[100px] w-[881px] h-[78px] bg-[#131F35] rounded-[10px] border border-[0.5px] border-[#C5FFE2]">
+          <div className="absolute top-[510px] left-[170px] w-[881px] h-[78px] bg-[#131F35] rounded-[10px] border border-[0.5px] border-[#C5FFE2]">
             <p className="absolute top-[10px] left-[50px] w-[320px] h-[27px] font-nunito font-semibold text-[20px] leading-[27.28px] text-[#FFFFFF]">
               How safe are the clients' data?
             </p>
