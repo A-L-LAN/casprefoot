@@ -63,13 +63,13 @@ const Home = () => {
         </div>
 
         {/* Rectangle 36 */}
-        <div className=" left-[88px] w-[1104px] h-[455px] bg-caspre-accent rounded-md mt-[10px] p-8">
+        <div className=" left-[88px] w-[1283px] h-[550px] bg-[#F1FEFB] rounded-md mt-[10px] p-8">
           <p className="absolute top-[120px] left-[485px] font-nunito font-bold text-[30px] leading-[40.92px] text-center text-[0C1424]">Our Value Proposition</p>
           <p className="absolute top-[150px] left-[530px] font-nunito font-normal text-[18px] leading-[24.55px] text-center text-caspre-bg mt-4">We are different, here is why.</p>
 
-         <div className= " h-[700px] flex items-center">
+         <div className= " h-[600px] flex items-center justify-between">
           {/* Box 1 */}
-          <div className="w-[325px] h-[270px] bg-caspre-secondary rounded-md shadow-credit p-4 flex flex-col">
+          <div className="w-[385px] h-[350px] bg-[#FFFFFF] rounded-md shadow-credit p-4 flex flex-col">
             <Image src="/Group 2.png" alt="Credit Scoring Accuracy" width={60} height={60} />
             <p className="font-nunito font-bold text-[20px] leading-[27.28px] text-center text-[0C1424] mt-4">Credit Scoring Accuracy</p>
             <p className="font-nunito font-normal text-[15px] leading-[20.46px] text-caspre-bg mt-4">
@@ -78,7 +78,7 @@ const Home = () => {
           </div>
 
           {/* Comprehensive Credit Insights */}
-          <div className="w-[325px] h-[270px] bg-caspre-secondary rounded-md shadow-credit p-4 flex flex-col items-center">
+          <div className="w-[385px] h-[350px] bg-[#FFFFFF] rounded-md shadow-credit p-4 flex flex-col items-center">
             <Image src="/Group 3.png" alt="Comprehensive Credit Insights" width={60} height={60} />
             <p className="font-nunito font-bold text-[20px] leading-[27.28px] text-center text-caspre-bg mt-4">Comprehensive Credit Insights</p>
             <p className="font-nunito font-normal text-[15px] leading-[20.46px] text-center text-caspre-bg mt-4">
@@ -87,7 +87,7 @@ const Home = () => {
           </div>
 
           {/* Enhanced Profitability */}
-          <div className="w-[325px] h-[270px] bg-caspre-secondary rounded-md shadow-credit p-4 flex flex-col items-center">
+          <div className="w-[385px] h-[350px] bg-[#FFFFFF] rounded-md shadow-credit p-4 flex flex-col items-center">
             <Image src="/Group 4.png" alt="Enhanced Profitability" width={60} height={60} />
             <p className="font-nunito font-bold text-[20px] leading-[27.28px] text-center text-caspre-bg mt-4">Enhanced Profitability</p>
             <p className="font-nunito font-normal text-[15px] leading-[20.46px] text-center text-caspre-bg mt-4">
