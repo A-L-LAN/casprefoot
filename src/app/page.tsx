@@ -400,10 +400,10 @@ const Home = () => {
           </p>
 
           {/* Testimonial Boxes */}
-          <div className="flex justify-center space-x-8 mt-8">
+          <div className="relative top-[50px] flex justify-center space-x-8 mt-8">
             {/* Testimonial Box 1 */}
-            <div className="w-[472px] h-[295px] bg-caspre-accent rounded-xl shadow-credit p-8 flex flex-col">
-              <Image src="/Ellipse 5.png" alt="user image" width={100} height={100} className="rounded-full mx-auto" />
+            <div className="w-[472px] h-[295px] bg-[#C5FFE2] rounded-xl p-8 flex flex-col">
+              <Image src="/Ellipse 5.png" alt="user image" width={100} height={100} className="absolute top-[-60px] left-[110px] rounded-full mx-auto" />
               <p className="font-nunito font-normal text-[15px] leading-[20.46px] text-center text-gray-700 mt-4">
                 Waiting for paragraph
               </p>
@@ -413,8 +413,8 @@ const Home = () => {
             </div>
 
             {/* Testimonial Box 2 */}
-            <div className="w-[472px] h-[295px] bg-caspre-accent rounded-xl shadow-credit p-8 flex flex-col">
-              <Image src="/Ellipse 5.png" alt="user image" width={100} height={100} className="rounded-full mx-auto" />
+            <div className="w-[472px] h-[295px] bg-[#C5FFE2] rounded-xl p-8 flex flex-col">
+              <Image src="/Ellipse 5.png" alt="user image" width={100} height={100} className="absolute top-[-60px] left-[470px] rounded-full mx-auto" />
               <p className="font-nunito font-normal text-[15px] leading-[20.46px] text-center text-gray-700 mt-4">
                 Waiting for paragraph
               </p>
@@ -424,8 +424,8 @@ const Home = () => {
             </div>
 
             {/* Testimonial Box 3 */}
-            <div className="w-[472px] h-[295px] bg-caspre-accent rounded-xl shadow-credit p-8 flex flex-col">
-              <Image src="/Ellipse 5.png" alt="user image" width={100} height={100} className="rounded-full mx-auto" />
+            <div className="w-[472px] h-[295px] bg-[#C5FFE2] rounded-xl p-8 flex flex-col">
+              <Image src="/Ellipse 5.png" alt="user image" width={100} height={100} className="absolute top-[-60px] left-[820px] rounded-full mx-auto" />
               <p className="font-nunito font-normal text-[15px] leading-[20.46px] text-center text-gray-700 mt-4">
                 Waiting for paragraph
               </p>
@@ -439,12 +439,12 @@ const Home = () => {
         {/* Arrows */}
         <div className="absolute top-[2594px] left-[88px] w-[1104px] flex justify-center space-x-16 mt-8">
           {/* Left Arrow */}
-          <div className="relative w-[75px] h-[75px] bg-caspre-accent rounded-full flex justify-center items-center">
+          <div className="relative w-[75px] h-[75px] bg-[#C5FFE2] rounded-full flex justify-center items-center">
             <Image src="/chevronleft.png" alt="left arrow" width={40} height={40} />
           </div>
 
           {/* Right Arrow */}
-          <div className="relative w-[75px] h-[75px] bg-caspre-accent rounded-full flex justify-center items-center">
+          <div className="relative w-[75px] h-[75px] bg-[#C5FFE2] rounded-full flex justify-center items-center">
             <Image src="/chevronright.png" alt="right arrow" width={40} height={40} />
           </div>
         </div>
