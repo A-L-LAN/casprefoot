@@ -63,34 +63,34 @@ const Home = () => {
         </div>
 
         {/* Rectangle 36 */}
-        <div className=" left-[88px] w-[1283px] h-[550px] bg-[#F1FEFB] rounded-md mt-[10px] p-8">
-          <p className="absolute top-[120px] left-[485px] font-nunito font-bold text-[30px] leading-[40.92px] text-center text-[0C1424]">Our Value Proposition</p>
-          <p className="absolute top-[150px] left-[530px] font-nunito font-normal text-[18px] leading-[24.55px] text-center text-caspre-bg mt-4">We are different, here is why.</p>
+        <div className="relative top-[100px] left-[0px] w-[1283px] h-[450px] bg-[#F1FEFB] rounded-md mt-[10px] p-8">
+          <p className="absolute top-[30px] left-[485px] font-nunito font-bold text-[30px] leading-[40.92px] text-center text-[0C1424]">Our Value Proposition</p>
+          <p className="absolute top-[60px] left-[530px] font-nunito font-normal text-[18px] leading-[24.55px] text-center text-caspre-bg mt-4">We are different, here is why.</p>
 
-         <div className= " h-[600px] flex items-center justify-between">
+         <div className= " h-[480px] flex items-center justify-between">
           {/* Box 1 */}
-          <div className="w-[385px] h-[350px] bg-[#FFFFFF] rounded-md shadow-credit p-4 flex flex-col">
+          <div className="w-[385px] h-[270px] bg-[#FFFFFF] rounded-md shadow-credit p-4 flex flex-col items-center">
             <Image src="/Group 2.png" alt="Credit Scoring Accuracy" width={60} height={60} />
             <p className="font-nunito font-bold text-[20px] leading-[27.28px] text-center text-[0C1424] mt-4">Credit Scoring Accuracy</p>
-            <p className="font-nunito font-normal text-[15px] leading-[20.46px] text-caspre-bg mt-4">
+            <p className="font-nunito font-normal text-[15px] w-[320px] leading-[20.46px] text-center text-caspre-bg mt-4">
               Utilize advanced AI and behavioural analytics to achieve unparalleled accuracy in credit scoring, enhancing your risk management capabilities.
             </p>
           </div>
 
           {/* Comprehensive Credit Insights */}
-          <div className="w-[385px] h-[350px] bg-[#FFFFFF] rounded-md shadow-credit p-4 flex flex-col items-center">
+          <div className="w-[385px] h-[270px] bg-[#FFFFFF] rounded-md shadow-credit p-4 flex flex-col items-center">
             <Image src="/Group 3.png" alt="Comprehensive Credit Insights" width={60} height={60} />
             <p className="font-nunito font-bold text-[20px] leading-[27.28px] text-center text-caspre-bg mt-4">Comprehensive Credit Insights</p>
-            <p className="font-nunito font-normal text-[15px] leading-[20.46px] text-center text-caspre-bg mt-4">
+            <p className="font-nunito font-normal text-[15px] w-[320px] leading-[20.46px] text-center text-caspre-bg mt-4">
               Gain deep, actionable insights from detailed credit profiles, empowering your institution to make informed lending decisions and improve client offerings.
             </p>
           </div>
 
           {/* Enhanced Profitability */}
-          <div className="w-[385px] h-[350px] bg-[#FFFFFF] rounded-md shadow-credit p-4 flex flex-col items-center">
+          <div className="w-[385px] h-[270px] bg-[#FFFFFF] rounded-md shadow-credit p-4 flex flex-col items-center">
             <Image src="/Group 4.png" alt="Enhanced Profitability" width={60} height={60} />
             <p className="font-nunito font-bold text-[20px] leading-[27.28px] text-center text-caspre-bg mt-4">Enhanced Profitability</p>
-            <p className="font-nunito font-normal text-[15px] leading-[20.46px] text-center text-caspre-bg mt-4">
+            <p className="font-nunito font-normal text-[15px] w-[320px] leading-[20.46px] text-center text-caspre-bg mt-4">
               Improve your bottom line through advanced risk management, operational efficiency, and increased client satisfaction driven by our cutting-edge AI technology.
             </p>
           </div>
