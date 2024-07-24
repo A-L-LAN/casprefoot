@@ -27,15 +27,15 @@ const Home = () => {
 
         {/* First CTAs */}
         <div className=" absolute top-[0px] mt-[210px] ml-[88px]">
-          <h1 className="font-bold text-[39px] leading-[53.2px] w-[550px] text-caspre-primary">
+          <h1 className="font-bold text-[39px] leading-[53.2px] w-[620px] text-caspre-primary">
             Transform Your Credit Future with Caspre's Cutting-Edge AI
           </h1>
-          <p className="mt-[20px] w-[434px] text-[15px] leading-[20.46px] text-caspre-primary">
+          <p className="mt-[20px] w-[450px] text-[15px] leading-[20.46px] text-caspre-primary">
             Utilize advanced AI for unmatched accuracy in credit scoring, unlock comprehensive insights, and elevate your lending decisions to improve risk management and increase profitability.
           </p>
           <div className="mt-[27px] flex space-x-4">
-            <button className="w-[100px] h-[31px] bg-[#D9D9D9] text-white rounded-[25px]">Get Started</button>
-            <button className="w-[137px] h-[35px] bg-[#D9D9D9] text-white rounded-[25px]">Learn More</button>
+            <button className="w-[137px] h-[35px] bg-[#D9D9D9] text-[#1E1E1E] rounded-[25px]">Get Started</button>
+            <button className="w-[137px] h-[35px] border-[1px] text-[#FFFFFF] rounded-[25px]">Learn More</button>
           </div>
         </div>
 
@@ -608,7 +608,7 @@ const Home = () => {
       {/* Footer */}
       <div className="relative bottom-[-2571px] footer bg-[#0C1424] px-8 py-4 ">
         {/* First Child */}
-        <div className="flex flex-col lg:flex-row justify-between">
+        <div className="left-[88px] flex flex-col lg:flex-row justify-between">
         
           {/* Caspre Details */}
           <div className="flex flex-col">
