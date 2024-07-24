@@ -110,7 +110,7 @@ const Home = () => {
             </div>
 
             <div className="absolute" style={{ top: '1544px', left: '0px' }}>
-                <p className="font-nunito font-bold text-30px text-white w-[428px] h-82px leading-tight">
+                <p className="font-nunito font-bold text-100px text-[#0C1424] w-[428px] h-30px leading-[40.92px]">
                     We customize credit solutions to match spending patterns.
                 </p>
             </div>
@@ -183,7 +183,7 @@ const Home = () => {
             </div>
 
             <div className="absolute" style={{ top: '2021px', left: '772px' }}>
-                <p className="font-nunito font-bold text-30px text-white w-[428px] h-82px leading-tight">
+                <p className="font-nunito font-bold text-30px text-[#0C1424] w-[428px] h-82px leading-[40.92px]">
                 Your customers' profiles are backed by facts.
                 </p>
             </div>
@@ -246,7 +246,7 @@ const Home = () => {
             </div>
 
             <div className="absolute" style={{ top: '2551px', left: '0px' }}>
-                <p className="font-nunito font-bold text-30px text-white w-[428px] h-82px leading-tight">
+                <p className="font-nunito font-bold text-30px text-[#0C1424] w-[428px] h-82px leading-[40.92px]">
                      We Factor in Everything, Including Climate
                 </p>
             </div>
@@ -319,7 +319,7 @@ const Home = () => {
             </div>
 
             <div className="absolute" style={{ top: '3045px', left: '772px' }}>
-                <p className="font-nunito font-bold text-30px text-white w-[428px] h-82px leading-tight">
+                <p className="font-nunito font-bold text-30px text-[#0C1424] w-[428px] h-82px leading-[40.92px]">
                     We Evaluate Risk, So You Don't Have To
                 </p>
             </div>
