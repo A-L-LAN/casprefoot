@@ -22,6 +22,10 @@ const Home = () => {
             <p className="text-[15px] leading-[20.46px]">Contact Us</p>
             <button className="bg-caspre-primary text-caspre-secondary ml-auto px-4 py-1.5 rounded-xl border">Sign in</button>
           </div>
+
+{/* Adding a line here */}
+
+
         </div>
 
         {/* First CTAs */}
@@ -194,7 +198,7 @@ const Home = () => {
             </div>
 
             {/* Button */}
-            <div className="absolute" style={{ top: '2251px', left: '772px' }}>
+            <div className="absolute" style={{ top: '2287px', left: '772px' }}>
               <button
                style={{
                width: '157px',
@@ -257,7 +261,7 @@ const Home = () => {
             </div>
 
             {/* Button */}
-            <div className="absolute" style={{ top: '2766px', left: '0px' }}>
+            <div className="absolute" style={{ top: '2802px', left: '0px' }}>
               <button
                style={{
                width: '157px',
@@ -330,7 +334,7 @@ const Home = () => {
             </div>
 
             {/* Button */}
-            <div className="absolute" style={{ top: '3249px', left: '772px' }}>
+            <div className="absolute" style={{ top: '3285px', left: '772px' }}>
               <button
                style={{
                width: '157px',
@@ -373,7 +377,8 @@ const Home = () => {
        {/* Section 7 */}
       <div className="relative w-[1283px] mx-auto mt-[200px]">
         {/* Rectangle 47 */}
-        <div className="absolute w-[1104px] h-[252px] rounded-md p-8 top-[3442px] left-[88px] flex flex-col">
+        <div className="absolute w-[1283px] h-[252px] bg-[#0C1424] rounded-md p-8 top-[1750px] left-[0px] flex flex-col">
+        {/* <Image src="/Rectangle 47.png" alt="Rectangle 47" width={1104} height={252} className="absolute top 1750px left-[0px] w-full h-full" /> */}
           <div className="flex justify-between mt-2">
             <div className="text-center">
               <p className="font-nunito text-[60px] leading-[81.84px] text-caspre-accent">45</p>
@@ -391,7 +396,7 @@ const Home = () => {
         </div>
 
         {/* TESTIMONIALS */}
-        <div className="absolute top-[3751px] left-[88px] w-[1104px] mt-8 p-8">
+        <div className="absolute top-[2040px] left-[88px] w-[1104px] mt-8 p-8">
           <p className="font-nunito font-medium text-[15px] leading-[20.46px] text-center text-blue-600">TESTIMONIALS</p>
           <p className="font-nunito font-bold text-[30px] leading-[40.92px] text-center text-caspre-bg mt-4">
             Don't Take Our Word for it. Here is What <span className="text-blue-600">Caspre's</span> Trusted Customers have to Say
@@ -435,7 +440,7 @@ const Home = () => {
         </div>
 
         {/* Arrows */}
-        <div className="absolute top-[4294px] left-[88px] w-[1104px] flex justify-center space-x-16 mt-8">
+        <div className="absolute top-[2594px] left-[88px] w-[1104px] flex justify-center space-x-16 mt-8">
           {/* Left Arrow */}
           <div className="relative w-[75px] h-[75px] bg-caspre-accent rounded-full flex justify-center items-center">
             <Image src="/chevronleft.png" alt="left arrow" width={40} height={40} />
@@ -449,7 +454,8 @@ const Home = () => {
       </div>
       
       {/* Section 8 */}
-      <div className="relative top-[4438px] left-[88px] w-[1104px] h-[682px] bg-[#0C1424] rounded-[10px] border border-[#C5FFE2]">
+      <div className="relative top-[2788px] left-[0px] w-[1283px] h-[682px] bg-[#0C1424] rounded-[10px] border border-[#C5FFE2]">
+      {/* <Image src="/Rectangle 49.png" alt="Rectangle 49" width={1104} height={682} className="relative top -220px left-[88px] w-full h-full" />   */}
         {/* First Child */}
         <div>
           <p className="absolute top-[50px] left-[350px] w-[421px] h-[41px] font-nunito font-bold text-[30px] leading-[40.92px] text-center text-[#C5FFE2]">
@@ -508,7 +514,7 @@ const Home = () => {
       </div> 
       
       {/* Section9 */}
-      <div className="relative top-[5257px] Section9 px-8 py-4 display-flex" >
+      <div className="relative top-[2857px] Section9 px-8 py-4 display-flex" >
         {/* First Child */}
         <div>
           {/* REQUEST A DEMO */}
@@ -594,7 +600,7 @@ const Home = () => {
       </div>
 
       {/* Footer */}
-      <div className="relative bottom-[-5171px] footer bg-[#0C1424] px-8 py-4 ">
+      <div className="relative bottom-[-2571px] footer bg-[#0C1424] px-8 py-4 ">
         {/* First Child */}
         <div className="flex flex-col lg:flex-row justify-between">
         
